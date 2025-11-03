@@ -1,5 +1,4 @@
-#ifndef TIMER_HPP
-#define TIMER_HPP
+#pragma once
 
 #include <ctime>
 
@@ -16,5 +15,3 @@ public:
     void stop();
     long elapsed() const;
 };
-
-#endif
